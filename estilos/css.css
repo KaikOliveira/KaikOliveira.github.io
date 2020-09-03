@@ -91,6 +91,7 @@
     margin:0;
     padding:0;
 }
+html, body {height:100%;}
   .dContato{
       position: absolute;
       bottom: 0;
