@@ -145,11 +145,6 @@ html, body {height:100%;}
     width: 100%; /* Full width */
     transition: 0.3s; /* Add a transition effect (when scrolling - and font size is decreased) */
   }
-  #test{
-    background-color: coral;
-    width: 100%;
-    margin-block-end: 50%;
-  }
 
   body{
     background-color: aqua;
