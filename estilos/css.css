@@ -97,11 +97,27 @@ html, body {height:100%;}
       bottom: 0;
       width: 100%;
       background-color: #808080;
+      align-items: center;
+      text-align: center;
+      left: 0;
   }
 
   .dBody{
-    min-height:100%;
+    
     position:relative;
     width:100%;
-    background-color: crimson;
+    background-color: #424242;
+  }
+
+  #header {
+    background-color: #f1f1f1; /* Grey background */
+    padding: 20px 5px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 10px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.9s; /* Add a transition effect (when scrolling - and font size is decreased) */
   }
