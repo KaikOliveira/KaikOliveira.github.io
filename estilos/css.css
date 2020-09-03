@@ -122,7 +122,7 @@ html, body {height:100%;}
     position: fixed; /* Fixed position - sit on top of the page */
     top: 0;
     width: 100%; /* Full width */
-    transition: 0.9s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    transition: 0.5s; /* Add a transition effect (when scrolling - and font size is decreased) */
   }
 
   body{
