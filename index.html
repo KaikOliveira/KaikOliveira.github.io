@@ -98,6 +98,13 @@
         </p>
     </div>
 </div>
+<div id="test">
+    <h1>Quantos OnlineM</h1>
+
+<button onclick="myFunction()">Clique</button>
+
+<p id="demo"></p>
+</div>
 
 </div>
 
@@ -113,6 +120,11 @@
         document.getElementById("header").style.fontSize = "15px";
       }
     }
+//online
+    function myFunction() {
+  var x = "Is the browser online? " + navigator.onLine;
+  document.getElementById("demo").innerHTML = x;
+}
     </script>
 </body>
 </html>
