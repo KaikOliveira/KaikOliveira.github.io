@@ -127,25 +127,33 @@ html, body {height:100%;}
                
 }
   .dBody{
-    margin-top: 135px;
+    
     position:relative;
-    width:100%;
+    width:85%;
     background-color: #424242;
+    align-items: center;
+    margin: 0 auto;
+    
   }
 
   #header {
-    background-color: #f3f3f3f3; /* Grey background */
-    padding: 20px 5px; /* Some padding */
+    background-color: #f3f3f3f3; 
+    padding: 20px 5px; 
     color: black;
-    text-align: center; /* Centered text */
-    font-size: 10px; /* Big font size */
+    text-align: center; 
+    font-size: 10px; 
     font-weight: bold;
-    position: fixed; /* Fixed position - sit on top of the page */
+    position: fixed; 
     top: 0;
-    width: 100%; /* Full width */
-    transition: 0.3s; /* Add a transition effect (when scrolling - and font size is decreased) */
+    width: 100%; 
+    transition: 0.3s; 
+    position:relative;
   }
 
   body{
     background-color: aqua;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
