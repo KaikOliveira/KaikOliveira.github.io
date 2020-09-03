@@ -1,0 +1,106 @@
+
+/* Sytles do skill Bar */
+* {box-sizing:content-box }
+       /*  Make sure that padding behaves as expected */
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+  align-items: center;
+  
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; /* title no top */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* cor do %  */
+}
+
+.html {
+  width: 90%;
+  background-color: #4CAF50;
+}
+.css {
+  width: 80%;
+  background-color: #2196F3;
+} 
+.js {
+  width: 65%;
+  background-color: #f44336;
+} 
+.php {
+  width: 60%; 
+  background-color: #808080;
+} 
+
+/* Icones de Contato */
+
+/* style de icon */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  
+  /* Efeito ao passar mouse */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* cor de cada icon */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+/*
+  .dContato{
+      box-sizing: flex;
+      width: 50% ;
+      background-color: #f44336;
+      margin-top: 100%;
+      align-items: flex-end;
+      float: inline-end ;
+  }
+
+  */
+  /*
+  .dContato{
+    position:fixed;
+    z-index:999; 
+    left:5px; 
+    top:5px;
+    overflow:hidden;
+    border:1px dashed #CCC;
+    padding:6px;
+  }
+
+  */
+  *  {
+    margin:0;
+    padding:0;
+}
+  .dContato{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #808080;
+  }
+
+  .dBody{
+    min-height:100%;
+    position:relative;
+    width:100%;
+    background-color: crimson;
+  }
