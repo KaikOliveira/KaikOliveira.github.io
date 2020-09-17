@@ -79,29 +79,7 @@
     background: #125688;
     color: white;
   }
-/*
-  .dContato{
-      box-sizing: flex;
-      width: 50% ;
-      background-color: #f44336;
-      margin-top: 100%;
-      align-items: flex-end;
-      float: inline-end ;
-  }
 
-  */
-  /*
-  .dContato{
-    position:fixed;
-    z-index:999; 
-    left:5px; 
-    top:5px;
-    overflow:hidden;
-    border:1px dashed #CCC;
-    padding:6px;
-  }
-
-  */
   *  {
     margin:0;
     padding:0;
@@ -165,11 +143,10 @@ html, body {height:100%;}
 
   /* SlideShow imgs Projects */
 
-  
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 350px;
   position: relative;
   margin: auto;
 }
@@ -200,7 +177,11 @@ html, body {height:100%;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
 
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -208,13 +189,14 @@ html, body {height:100%;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-weight: bold;
 }
 
 /* Number text (1/3 etc) */
@@ -258,4 +240,20 @@ html, body {height:100%;}
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.slideContainer {
+  background-color: #4CAF50;
+  display: flex;
+ flex-direction: row;
+ 
+}
+
+.slidebox1{
+  background-color: #2196F3;
+  margin: 10px;
+}
+
+.slidebox2{
+  background-color: #f44336;
 }
