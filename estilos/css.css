@@ -1,24 +1,24 @@
-
-/* Sytles do skill Bar */
+/* Sytles Skill Bar value*/
 * {
   box-sizing:content-box ;
 
 }
-       /*  Make sure that padding behaves as expected */
+/* Conteiner Skill Bar */
 .container {
   width: 100%; 
   background-color: #ddd; 
   align-items: center;
   
 }
-
+/* Todas as Skill bar */
 .skills {
   text-align: right; 
   padding-top: 10px; /* title no top */
-  padding-bottom: 10px; /* Add bottom padding */
+  padding-bottom: 10px; /* padding espaçamento -- top / bottom */
   color: white; /* cor do %  */
 }
 
+/* Cada bar -- suas cores e % */
 .html {
   width: 90%;
   background-color: #4CAF50;
@@ -36,8 +36,8 @@
   background-color: #808080;
 } 
 
-/* Icones de Contato */
 
+/* Icones de Contato */
 /* style de icon */
 .fa {
     padding: 20px;
