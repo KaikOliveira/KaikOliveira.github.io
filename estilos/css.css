@@ -3,11 +3,14 @@
   box-sizing:content-box ;
 
 }
+
+
 /* Conteiner Skill Bar */
 .container {
-  width: 100%; 
+  
   background-color: #ddd; 
   align-items: center;
+  
   
 }
 /* Todas as Skill bar */
