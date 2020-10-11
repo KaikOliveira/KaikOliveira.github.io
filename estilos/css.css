@@ -117,9 +117,9 @@ html, body {height:100%;}
     margin: 0 auto;
     margin-top: 128px;
  
-    box-shadow: -5px -10px 30px #757575, 6px 9px 15px #757575;
--webkit-box-shadow: -5px -10px 30px #757575, 6px 9px 15px #757575;
--moz-box-shadow: -5px -10px 30px #757575, 6px 9px 15px #757575;
+    box-shadow: -5px -10px 30px #212121, 6px 9px 15px #212121;
+    -webkit-box-shadow: -5px -10px 30px #212121, 6px 9px 15px #212121;
+    -moz-box-shadow: -5px -10px 30px #212121, 6px 9px 15px #212121;
   }
 
   #header {
