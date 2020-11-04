@@ -135,6 +135,24 @@ html, body {height:100%;}
     transition: 0.4s; 
     
   }
+  #header h1 {
+    font-family: 'Ubuntu', sans-serif;; 
+    font-weight: 800;
+    color: #2d2f36;
+    margin-bottom: 3px;
+  }
+  #header h2 {
+    font-family: 'Ubuntu', sans-serif;; 
+    font-weight: 600;
+    color: #018185;
+    margin-bottom: 3px;
+  }
+  
+  #header h3 {
+    font-family: 'Ubuntu', sans-serif;; 
+    font-weight: 600;
+    color: #263238;
+  }
 
   body{
     background-color: #263238;
