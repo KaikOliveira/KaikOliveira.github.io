@@ -1,169 +1,154 @@
 /* Sytles Skill Bar value*/
 * {
-  box-sizing:content-box ;
-
+  box-sizing: content-box;
 }
-
 
 /* Conteiner Skill Bar */
 .container {
-  
-  background-color: #ddd; 
+  background-color: #ddd;
   align-items: center;
-  
-  
 }
 /* Todas as Skill bar */
 .skills {
-  text-align: right; 
+  text-align: right;
   padding-top: 10px; /* title no top */
   padding-bottom: 10px; /* padding espaçamento -- top / bottom */
-  color: white; /* cor do %  */
+  color: #fff; /* cor do %  */
 }
 
 /* Cada bar -- suas cores e % */
 .html {
   width: 90%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
 .css {
   width: 80%;
-  background-color: #2196F3;
-} 
+  background-color: #2196f3;
+}
 .js {
   width: 65%;
   background-color: #f44336;
-} 
+}
 .php {
-  width: 60%; 
+  width: 60%;
   background-color: #808080;
-} 
-
+}
 
 /* Icones de Contato */
 /* style de icon */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  
-  /* Efeito ao passar mouse */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* cor de cada icon */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  *  {
-    margin:0;
-    padding:0;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
-html, body {height:100%;}
-  .dContato{
-      position: static;
-      bottom: 0;
-      width: 100%;
-      background-color: #808080;
-      align-items: center;
-      text-align: center;
-     
-      display: flex;
-      
-      
-  }
-.contatoItens{
-        background-color: blueviolet;
-        height: 100%;
-        width: 100%;
-         margin: 3px  5px;
-        justify-content: space-between;
-        
+/* Efeito ao passar mouse */
+.fa:hover {
+  opacity: 0.7;
 }
-  .dBody{
-    
-    position:static;
-    width:85%;
-    background-color: #78909C;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 122px;
- 
-    box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
-    -webkit-box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
-    -moz-box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
-  }
+/* cor de cada icon */
 
-  #header {
-    background-color: #CFD8DC; 
-    padding: 20px 10px; 
-    color: black;
-    text-align: center; 
-    font-size: 15px; 
-    font-weight: bold;
-    position:  fixed; 
-    top: 0;
-    width: 100%; 
-    transition: 0.4s; 
-    
-  }
-  #header h1 {
-    font-family: 'Ubuntu', sans-serif;; 
-    font-weight: 800;
-    color: #2d2f36;
-    margin-bottom: 3px;
-  }
-  #header h2 {
-    font-family: 'Ubuntu', sans-serif;; 
-    font-weight: 600;
-    color: #018185;
-    margin-bottom: 3px;
-  }
-  
-  #header h3 {
-    font-family: 'Ubuntu', sans-serif;; 
-    font-weight: 600;
-    color: #263238;
-  }
+.fa-facebook {
+  background: #3b5998;
+  color: #fff;
+}
+.fa-twitter {
+  background: #55acee;
+  color: #fff;
+}
+.fa-google {
+  background: #dd4b39;
+  color: #fff;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: #fff;
+}
+.fa-instagram {
+  background: #125688;
+  color: #fff;
+}
 
-  body{
-    background-color: #263238;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
 
-  /* SlideShow imgs Projects */
+.dContato {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  background-color: #808080;
+  align-items: center;
+  text-align: center;
 
+  display: flex;
+}
+.contatoItens {
+  background-color: #c53030;
+  height: 100%;
+  width: 100%;
+  margin: 3px 5px;
+  justify-content: space-between;
+}
+.dBody {
+  position: static;
+  width: 85%;
+  background-color: #78909c;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 122px;
+
+  box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
+  -webkit-box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
+  -moz-box-shadow: -7px -10px 20px #151515, 6px 9px 15px #151515;
+}
+#header {
+  background-color: #cfd8dc;
+  padding: 20px 10px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+#header h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  color: #2d2f36;
+  margin-bottom: 3px;
+}
+#header h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #018185;
+  margin-bottom: 3px;
+}
+
+#header h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: #263238;
+}
+
+body {
+  background-color: #263238;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* SlideShow imgs Projects */
 
 /* Slideshow container */
 .slideshow-container {
@@ -178,7 +163,8 @@ html, body {height:100%;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -198,14 +184,14 @@ html, body {height:100%;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.prev{
+.prev {
   left: 0;
   border-radius: 3px 0 0 3px;
-
 }
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(255,255,255,0.7);
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* Caption text */
@@ -242,7 +228,8 @@ html, body {height:100%;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -255,30 +242,37 @@ html, body {height:100%;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .slideContainer {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   display: flex;
- flex-direction: row;
- 
+  flex-direction: row;
 }
-.slideTitle{
+.slideTitle {
   background-color: #f24431;
 }
 
-.slidebox1{
-  background-color: #2196F3;
+.slidebox1 {
+  background-color: #2196f3;
   margin: 10px;
 }
 
-.slidebox2{
+.slidebox2 {
   background-color: #f44336;
 }
